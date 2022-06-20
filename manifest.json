@@ -1,11 +1,11 @@
 {
-    "name": "hascoin",
-    "short_name": "hascoin",
+    "name": "Action Wallet Checker",
+    "short_name": "awc",
     "start_url": ".",
     "display": "standalone",
     "background_color": "#0175C2",
     "theme_color": "#0175C2",
-    "description": "A new Flutter project.",
+    "description": "Action Wallet Checker is staller account checker, asset holder limit checker tool.",
     "orientation": "portrait-primary",
     "prefer_related_applications": false,
     "icons": [
