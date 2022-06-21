@@ -5,7 +5,7 @@
     "display": "standalone",
     "background_color": "#ba0000",
     "theme_color": "#ba0000",
-    "description": "Action Wallet Checker is staller account checker, asset holder limit checker tool.",
+    "description": "Action Wallet Checker is Stellar account checker, asset holder limit checker tool.",
     "orientation": "portrait-primary",
     "prefer_related_applications": false,
     "icons": [
