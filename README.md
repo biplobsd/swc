@@ -8,4 +8,4 @@ Action wallet checker power by action-tokens.com
 ## Backend api
 `https://horizon.stellar.org` for fetching account and asset information.
 
-[Open AWC app](https://biplobsd.github.io/swc/)
+[Open AWC app](https://awc.action-tokens.com/)
