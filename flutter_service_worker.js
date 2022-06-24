@@ -5,7 +5,6 @@ const CACHE_NAME = 'flutter-app-cache';
 const RESOURCES = {
   ".git/config": "2af5c90d9de5a8fc2bebe903249ea595",
 ".git/description": "a0a7c3fff21f2aea3cfa1d0316dd816c",
-".git/FETCH_HEAD": "374be5ea9942c615ec7de1edb3155274",
 ".git/HEAD": "cf7dd3ce51958c5f13fece957cc417fb",
 ".git/hooks/applypatch-msg.sample": "ce562e08d8098926a3862fc6e7905199",
 ".git/hooks/commit-msg.sample": "579a3c1e12a1e74a98169175fb913012",
@@ -20,21 +19,21 @@ const RESOURCES = {
 ".git/hooks/prepare-commit-msg.sample": "2b5c047bdb474555e1787db32b2d2fc5",
 ".git/hooks/push-to-checkout.sample": "c7ab00c7784efeadad3ae9b228d4b4db",
 ".git/hooks/update.sample": "647ae13c682f7827c22f5fc08a03674e",
-".git/index": "66147beb19ccf6ecc3c19c07c15c9a83",
+".git/index": "7caeb65f75bd96d882ebba23fd1d7c7e",
 ".git/info/exclude": "036208b4a1ab4a235d75c181e685e5a3",
-".git/logs/HEAD": "d9ce7ead0be551d0fa67d78c6a1a7bc8",
-".git/logs/refs/heads/main": "d9ce7ead0be551d0fa67d78c6a1a7bc8",
-".git/logs/refs/remotes/origin/HEAD": "d9ce7ead0be551d0fa67d78c6a1a7bc8",
-".git/objects/pack/pack-39a3d3eac6da4913cc41a2b29054b4f5581e828e.idx": "c8d9da4095cb41ad69a08a350acb6432",
-".git/objects/pack/pack-39a3d3eac6da4913cc41a2b29054b4f5581e828e.pack": "08784a8901a5e92db9d5af38442caa9b",
-".git/packed-refs": "a898bb3f070f0ec30d1c3196981c7c97",
-".git/refs/heads/main": "1f3be1838426baa816031c5be643794d",
+".git/logs/HEAD": "daef9132f518422e8f74cb3c62a01eef",
+".git/logs/refs/heads/main": "daef9132f518422e8f74cb3c62a01eef",
+".git/logs/refs/remotes/origin/HEAD": "daef9132f518422e8f74cb3c62a01eef",
+".git/objects/pack/pack-b904ea20d99d900b5fcf0cfe26ce3d50476eb1b6.idx": "127e1be678b6c28e68c2109e99709691",
+".git/objects/pack/pack-b904ea20d99d900b5fcf0cfe26ce3d50476eb1b6.pack": "6f825079e04552c4aaa5460735216b5c",
+".git/packed-refs": "27740cd0b8382e7898c746bd14a216d1",
+".git/refs/heads/main": "806ac592dab5405ff8257ae4622049c5",
 ".git/refs/remotes/origin/HEAD": "98b16e0b650190870f1b40bc8f4aec4e",
 "assets/AssetManifest.json": "6b9f53fb200e8129e759c5c7168d8a30",
 "assets/assets/red-transp.png": "a4a1db3e499d1cd0f7fa7daafa1fc81d",
 "assets/FontManifest.json": "7b2a36307916a9721811788013e65289",
 "assets/fonts/MaterialIcons-Regular.otf": "95db9098c58fd6db106f1116bae85a0b",
-"assets/NOTICES": "b2b456c7544cd2110bcfb1c54f329c05",
+"assets/NOTICES": "5da8e432d53ea9fdade761ab7c34653f",
 "assets/packages/awesome_dialog/assets/flare/error.flr": "e3b124665e57682dab45f4ee8a16b3c9",
 "assets/packages/awesome_dialog/assets/flare/info.flr": "bc654ba9a96055d7309f0922746fe7a7",
 "assets/packages/awesome_dialog/assets/flare/info2.flr": "21af33cb65751b76639d98e106835cfb",
@@ -50,18 +49,19 @@ const RESOURCES = {
 "canvaskit/profiling/canvaskit.js": "491df729e7b715d86fc167feabea031a",
 "canvaskit/profiling/canvaskit.wasm": "95e736ab31147d1b2c7b25f11d4c32cd",
 "favicon.ico": "374b109e885192ca894324888bfd03bf",
+"favicon.png": "5dcef449791fa27946b3d35ad8803796",
 "flutter.js": "2556c7a0a389efe39748bf8869544837",
 "icons/Icon-192.png": "255159ccba2e6344380b77b4c9cce313",
 "icons/Icon-512.png": "ce95e88c5e0ed0e32dd324ca2b518dc9",
 "icons/Icon-maskable-192.png": "255159ccba2e6344380b77b4c9cce313",
 "icons/Icon-maskable-512.png": "ce95e88c5e0ed0e32dd324ca2b518dc9",
-"index.html": "27f0cfe6880d9c6d1c4a87db4300fe00",
-"/": "27f0cfe6880d9c6d1c4a87db4300fe00",
-"main.dart.js": "d121fd0764e98e8de99b6fcfd4c71de7",
+"index.html": "3ac4eb820dcd41d2bfc4d223ab4f8bec",
+"/": "3ac4eb820dcd41d2bfc4d223ab4f8bec",
+"main.dart.js": "51fe3572ecef887f765bfc141ee9bad6",
 "manifest.json": "0111222459de96177f89c4066aa5c868",
-"README.md": "d7ac8346aa2992cf4b451ae7b8d97b56",
+"README.md": "18571af1c80b054a437281757fc3f39f",
 "splash/style.css": "cdc8b7c17d0b91444ce670f50ac8f082",
-"version.json": "46d06307f663e496dfa2dc3684afa49a"
+"version.json": "c156a52e5a529125ac93573609a24f0d"
 };
 
 // The application shell files that are downloaded before a service worker can
@@ -69,6 +69,7 @@ const RESOURCES = {
 const CORE = [
   "main.dart.js",
 "index.html",
+"assets/NOTICES",
 "assets/AssetManifest.json",
 "assets/FontManifest.json"];
 // During install, the TEMP cache is populated with the application shell files.
@@ -167,11 +168,9 @@ self.addEventListener("fetch", (event) => {
     .then((cache) =>  {
       return cache.match(event.request).then((response) => {
         // Either respond with the cached resource, or perform a fetch and
-        // lazily populate the cache only if the resource was successfully fetched.
+        // lazily populate the cache.
         return response || fetch(event.request).then((response) => {
-          if (response && Boolean(response.ok)) {
-            cache.put(event.request, response.clone());
-          }
+          cache.put(event.request, response.clone());
           return response;
         });
       })
