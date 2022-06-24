@@ -84532,7 +84532,7 @@ r=b.a
 s.av(new A.QT())
 J.cO(s.gtI(),new A.vI(r,new A.cG(Date.now(),!1)))
 r=A.a(s.Q,"box")
-r.A9(A.aS(["hascodecheckerhistorylist",new A.Ck(s.gtI())],t.z,r.$ti.c))
+r.A9(A.aS(["hascodecheckerhistorylistv1.2",new A.Ck(s.gtI())],t.z,r.$ti.c))
 s.av(new A.DR())}},
 $S:550}
 A.a7G.prototype={
@@ -84658,16 +84658,16 @@ A.te.prototype={
 es(){var s=0,r=A.J(t.z),q=this,p,o
 var $async$es=A.F(function(a,b){if(a===1)return A.G(b,r)
 while(true)switch(s){case 0:s=2
-return A.K($.B4().oq("checkerRecentSearch",t.Iz),$async$es)
+return A.K($.B4().oq("checkerRecentSearchv1.2",t.Iz),$async$es)
 case 2:o=b
 A.ar(q.y,"box")
 q.y=o
-p=A.a(o,"box").r9(0,"checkerRecentSearch")
+p=A.a(o,"box").r9(0,"checkerRecentSearchv1.2")
 if(p!=null)q.Q=p.a
 return A.H(null,r)}})
 return A.I($async$es,r)},
 qo(){var s=A.a(this.y,"box")
-s.A9(A.aS(["checkerRecentSearch",new A.Cl(this.Q)],t.z,s.$ti.c))},
+s.A9(A.aS(["checkerRecentSearchv1.2",new A.Cl(this.Q)],t.z,s.$ti.c))},
 A(a,b){var s,r
 J.aHL(this.Q,new A.akk(b))
 this.qo()
@@ -84840,11 +84840,11 @@ es(){var s=0,r=A.J(t.z),q=this,p,o
 var $async$es=A.F(function(a,b){if(a===1)return A.G(b,r)
 while(true)switch(s){case 0:q.av(new A.QR())
 s=2
-return A.K($.B4().oq("hascodeassetholderhistorylist",t.PW),$async$es)
+return A.K($.B4().oq("hascodeassetholderhistorylistv1.2",t.PW),$async$es)
 case 2:p=b
 A.ar(q.x,"box")
 q.x=p
-o=A.a(p,"box").r9(0,"hascodeassetholderhistorylist")
+o=A.a(p,"box").r9(0,"hascodeassetholderhistorylistv1.2")
 if(o!=null)q.y=o.a
 q.gtB()
 q.av(new A.DQ())
@@ -84854,7 +84854,7 @@ J3(a,b,c){var s,r=this
 r.av(new A.DO())
 J.cO(r.gtB(),new A.vk(a,b,c,new A.cG(Date.now(),!1)))
 s=A.a(r.x,"box")
-s.A9(A.aS(["hascodeassetholderhistorylist",new A.BW(r.gtB())],t.z,s.$ti.c))
+s.A9(A.aS(["hascodeassetholderhistorylistv1.2",new A.BW(r.gtB())],t.z,s.$ti.c))
 r.av(new A.wH())}}
 A.fg.prototype={}
 A.QS.prototype={}
@@ -84870,11 +84870,11 @@ es(){var s=0,r=A.J(t.z),q=this,p,o
 var $async$es=A.F(function(a,b){if(a===1)return A.G(b,r)
 while(true)switch(s){case 0:q.av(new A.QU())
 s=2
-return A.K($.B4().oq("hascodecheckerhistorylist",t.DO),$async$es)
+return A.K($.B4().oq("hascodecheckerhistorylistv1.2",t.DO),$async$es)
 case 2:p=b
 A.ar(q.Q,"box")
 q.Q=p
-o=A.a(p,"box").r9(0,"hascodecheckerhistorylist")
+o=A.a(p,"box").r9(0,"hascodecheckerhistorylistv1.2")
 if(o!=null)q.z=o.a
 q.gtI()
 q.av(new A.DS())
@@ -85219,11 +85219,11 @@ A.tx.prototype={
 es(){var s=0,r=A.J(t.z),q=this,p,o
 var $async$es=A.F(function(a,b){if(a===1)return A.G(b,r)
 while(true)switch(s){case 0:s=2
-return A.K($.B4().oq("Settings",t.m8),$async$es)
+return A.K($.B4().oq("Settingsv1.2",t.m8),$async$es)
 case 2:o=b
 A.ar(q.y,"box")
 q.y=o
-p=A.a(o,"box").r9(0,"Settings")
+p=A.a(o,"box").r9(0,"Settingsv1.2")
 if(p!=null){q.ax=p.a
 q.at=p.b
 q.z=p.c}o=B.f.j(q.z)
@@ -85233,7 +85233,7 @@ return A.I($async$es,r)},
 Jf(){this.z=A.i3(A.a(this.as,"assetHolderFetchingLimitController").a.a,null)
 this.qo()},
 qo(){var s=this,r=A.a(s.y,"box")
-r.A9(A.aS(["Settings",new A.He(s.ax,s.at,s.z)],t.z,r.$ti.c))},
+r.A9(A.aS(["Settingsv1.2",new A.He(s.ax,s.at,s.z)],t.z,r.$ti.c))},
 ai(a){return this.rz(0)},
 X7(a){var s=a.cx.c.f,r=A.a0(s).h("af<1,lq>")
 this.at=A.ae(new A.af(s,new A.ana(),r),!0,r.h("aG.E"))
